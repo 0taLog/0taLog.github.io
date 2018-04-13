@@ -1,9 +1,9 @@
-#勉強用ログ
+###勉強用ログ
 
-##カテゴリ
-- [unity](./unity)
-
-
+###カテゴリ
+[unity](./unity)
+[C言語](./c)
+[Webコンテンツ](./web)
 
 ### Markdown memo
 
@@ -25,5 +25,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
