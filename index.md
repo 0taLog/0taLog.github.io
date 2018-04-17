@@ -4,3 +4,4 @@
 [C言語](./c)
 [MAYA](./maya)
 [Webコンテンツ](./web)
+[photoshop](./photoshop)
