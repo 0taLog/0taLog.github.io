@@ -1,11 +1,11 @@
-# 勉強メモ
+# 自習用メモ
   
 ## App
 [unity](./unity)
 [MAYA](./maya)
 [photoshop](./photoshop)
   
-## 言語
+## Lang
 [C#](./cs)
 [C言語](./c)
 [Web](./web)
