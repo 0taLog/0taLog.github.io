@@ -1,7 +1,11 @@
-# 各種勉強内容のメモ
-
+# 勉強メモ
+  
+## App
 [unity](./unity)
-[C言語](./c)
 [MAYA](./maya)
-[Webコンテンツ](./web)
 [photoshop](./photoshop)
+  
+## 言語
+[C言語](./c)
+[C#](./cs)
+[Web系](./web)
