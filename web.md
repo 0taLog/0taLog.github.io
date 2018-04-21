@@ -64,6 +64,19 @@ style設定をhtmlに記述する時代はイベント対応などはイベン�
 ~~~~
 
 ## JS
+### jQuery
+使い方
+~~~~
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>
+$(function() {
+  //ここに処理を記述
+  $('セレクタ名').click(function() {$('セレクタ名').処理('効果');});
+});
+</script>
+~~~~
+[デモ](./jquery)
+
 
 
 
