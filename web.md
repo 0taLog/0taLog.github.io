@@ -65,7 +65,7 @@ style設定をhtmlに記述する時代はイベント対応などはイベン�
 
 ## JS
 ### jQuery
-使い方
+使う時
 ~~~~
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 <script>
@@ -75,7 +75,6 @@ $(function() {
 });
 </script>
 ~~~~
-[デモ](./jquery)
 
 
 
