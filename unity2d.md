@@ -1,10 +1,17 @@
 # unity2Dメモ
-## わからない単語・不明点
-### 単語
-+ ReactTransformとTransformの違い
-アンカーとは
-基礎がわかってないうちに作り始めるから身につかないのか
 
-### 不明点
-+ シーンのフォルダの作成場所を間違えた
-ドラッグ＆ドロップで気軽に移動させて大丈夫なのか
+## UnityEngineについて
+~~~
+using UnityEngine;
+using UnityEngine.UI;
+~~~
+### using UnityEngine について
+デフォルトで大体必要
+#### 問題発覚パターン
++ 作成しても何故か書いてないときある
+
+  
+### using UnityEngine.UI について
+Create>UI>... で作成したゲームオブジェクトをC#で操作する時に必要
+#### 問題発覚パターン
++ public GameObject 変数名;で書いたのにInspectorで表示されない時
