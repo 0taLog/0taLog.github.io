@@ -48,7 +48,20 @@ srring message = str1 + num;
 
 ~~~
 
-
+### 条件分岐
+#### 注意点
+~~~
+        int hp = 120;
+        if (hp > 100){
+            Debug.Log("100以上");
+        }else if (hp > 110) {
+            Debug.Log("110以上
+        }else{
+            Debug.Log("そのほか");
+        }
+~~~
++ 状況の時、先に真になったhp > 100の方の処理が実行される。
++ visual studioだと注意してくれる
 
 
 ## unity C# memo
