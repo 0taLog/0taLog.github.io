@@ -63,6 +63,24 @@ style設定をhtmlに記述する時代はイベント対応などはイベン�
 --></style>
 ~~~~
 
+### あまり使わないfont周りのcss
+~~~~
+font-size:small;
+font-style:italic;
+~~~~
+#### font-styleについて
+px指定ではなく以下は"タグに設定されたサイズ"を基準に大きい小さいを変える
++ small
++ large
+など
+#### font-styleについて
++ italic 斜めにする
++ oblique 斜めにする（ブラウザごと不安定）
+
+
+
+
+
 ## JS
 ### jQuery
 使う時
