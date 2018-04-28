@@ -1,5 +1,28 @@
 # unity2Dメモ
 
+## Cs
+## const(定数)について
++ 書き換えない項目を設定しておくと便利
++ 数値にしておくと処理がしやすいものを設定しておくと便利
++ 数値で扱いたいデータをプログラミング時にはわかりやすい変数名にしておくと便利
+たとえば、スワイプで変更したい(++)向きなど
+~~~
+public const int WALL_FRONT = 1; 
+public const int WALL_RIGHT = 2; 
+public const int WALL_BACK = 3; 
+public const int WALL_LEFT = 4; 
+~~~
+## GameObjectについて
++ プログラムで宣言しておくと、unityのインスペクタでいじれるようになる
++ 宣言名はヒエラルキービューのオブジェクトと名前揃えておくと、設定する時わかりいい！
+たとえば ボタンA
+~~~
+public GameObject buttonA;
+~~~
+UI>Button で作成後 -> 名前変更:ButtonA
+
+
+
 ## ゲームオブジェクト注意事項
 + クリックして動作させたいものは ボタン で作成(たとえ画像でも)
 + 親と子の属性が違っても・同じでも大丈夫 (親がUI>imageに子をUI>imageでもUI>Buttonで作成しても大丈夫)
