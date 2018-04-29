@@ -1,0 +1,40 @@
+# 困った時のunityノート vol.1
+
+## 2D
+### タップで動作するイラストの作り方
+例) 鍵を作る
+1. ボタンを配置
++ H>Create>UI>Buttonで配置。（子要素テキストは任意で削除)
++ 名前をButtonKeyに変更
+2. ボタンのデザインを設定
++ I > React Transform や Image を設定
++ 画像サイズはset sizeで揃えられる
+3. スクリプトで宣言・処理を書く
++ (using UnityEngine.UIを読み込んでなければ読み込む)
++ 変数で宣言（例：public GameObject buttonKey; ）
++ 関数を作る(例：public void PushButtonKey(){}）
+例)GameManager.cs
+~~~
+using UnityEngine.UI; //ボタンを動かすのに必要
+public GameObject buttonKey; //鍵
+void Start(){
+ 
+}
+public void PushButtonKey(){
+//処理の例：buttonKey.SetActive(false);
+//ここにボタンを押した後の処理を書きます
+}
+~~~
+4. ゲームオブジェクトを割り当てる
++ H>GameManagerを選択
++ I>項目：ButtonKeyにH>ButtonKeyをドラッグ＆ドロップ
+（宣言したので項目が出ている）
+5. 関数をボタンに紐付ける
++ H>ButtonKeyを選択
++ I>On Clickにプログラム*1をドラッグ&ドロップ（例：GameManager.cs）
++ I>On Clickにfunctionを設定（例：PushButtonKey()）
+
+*1 プログラムをゲームオブジェクト化する方法は を参照
+
+## 3D
+
