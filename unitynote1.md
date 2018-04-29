@@ -1,7 +1,21 @@
 # 困った時のunityノート vol.1
 
 ## 2D
-### タップで動作するイラストの作り方
+### 画面を作成する
+UI>canvas
+
+### 次のシーンに移る
++ UnityEngine.SceneManagementの読み込み
++ 関数内でSceneManager.LoadScene ("シーン名");
+例)ゲーム画面 gameManagement.cs
+~~~
+using UnityEngine.SceneManagement; //画面遷移に必要
+//ボタンをタップ
+public void PushButtonSample(){
+ SceneManager.LoadScene ("SampleScene");
+}
+~~~
+### タップで動作するイラストを配置する
 例) 鍵を作る
 1. ボタンを配置
 + H>Create>UI>Buttonで配置。（子要素テキストは任意で削除)
