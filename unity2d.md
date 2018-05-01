@@ -57,20 +57,33 @@ UI>Button で作成後 -> 名前変更:ButtonA
 + 子属性のTextをdeleteして、ButtonにSourceImageを設定する
 
 ## プログラム注意事項
-## UnityEngineについて
+## using で読み込むファイル
 
-### using UnityEngine について
+### UnityEngine
++ デフォルトで大体必要
++ 作成しても何故か書いてないときある(特に設定アイコンのやつGameManager)
 ~~~
 using UnityEngine;
 ~~~
-デフォルトで大体必要
-#### 問題発覚パターン
-+ 作成しても何故か書いてないときある(特に設定アイコンのやつGameManager)
-  
-### using UnityEngine.UI について
+
+### UnityEngine.UI
+Create>UI>... で作成したゲームオブジェクトをC#で操作する時に必要
 ~~~
 using UnityEngine.UI;
 ~~~
-Create>UI>... で作成したゲームオブジェクトをC#で操作する時に必要
-#### 問題発覚パターン
-+ public GameObject 変数名;で書いたのにInspectorで表示されない時
++ public GameObject 変数名;で書いたのに
++ Inspectorで表示されない時ここがない場合が多い
+
+### System
++ 時間計算のために.NET FrameworkのDateTime,TimeSpanを使う時などに必要
+~~~
+using System;
+~~~
+呼び出し
+~~~
+//宣言
+private DateTime sampleDateTime;
+//使う時:現在時刻取得
+sampleDateTime = DateTime.UtcNow;
+~~~
+
