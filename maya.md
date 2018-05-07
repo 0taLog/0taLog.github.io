@@ -62,6 +62,7 @@ cubeは６つのPlaneのグループ化したもので、Square,Circleは線を�
 履歴の出し方：Windows>Outliner
 + scaleが0になったもの(非表示)などもここで再選択できる
 #### グループ化：複数選択して、Cntr + Gでグループ化
+#### グループ解除：edit>ungroup
 
 ### 備考
 #### オブジェクトに色を付ける
