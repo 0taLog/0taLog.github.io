@@ -30,9 +30,6 @@
 オブジェクトを選択した状態での、ショートカットキー
 ##### ツール
 + 選択　q
-
-
-
 + 移動　W 
 + 回転　E
 + 拡大・縮小　R
@@ -117,4 +114,10 @@ http://mainote.net/posts/maya21.html
 ### うまくいかないときはフリーズトランスフォーム
 modify > Freeze Transform でロック
 
+### オブジェクト黒い
+#### nurbsオブジェクト　の裏面が黒い
+lightning>TwoSidedLightning に切り替え
 
+#### nurbsモデリング　surface後表面が真っ黒
+ 1. オブジェクトを選択
+ 2. surface>Reverse Direction で反転
