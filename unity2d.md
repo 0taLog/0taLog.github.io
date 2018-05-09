@@ -48,7 +48,12 @@ public GameObject buttonA;
 ~~~
 UI>Button で作成後 -> 名前変更:ButtonA
 
-
+### インスペクタ項目メモ
+#### UI>Image
+##### Image(Script)
++ Source Image : 画像のリンク
++ Raycast Target : 有効の場合、このオブジェクトに対するタッチ判定を有効になる
+負荷が高いので、タッチ操作をしない場合はOFFにしておく！！！
 
 ## ゲームオブジェクト注意事項
 + クリックして動作させたいものは ボタン で作成(たとえ画像でも)
