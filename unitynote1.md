@@ -1,5 +1,12 @@
 # 困った時のunityノート vol.1
 
+## unity remote
+### for iphone&mac
+1. usb接続
+2. unity>edit>からリモート設定
+3. unity remoteを起動した状態でunity再生
+4. アスペクト調節
+
 ## 2D
 ### 画面を作成する
 UI>canvas
