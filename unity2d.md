@@ -92,3 +92,8 @@ private DateTime sampleDateTime;
 sampleDateTime = DateTime.UtcNow;
 ~~~
 
+
+### layout
+#### 画面比率について
++ 縦に合わせるか、横に合わせるかで溝が変わる
++ ios 
