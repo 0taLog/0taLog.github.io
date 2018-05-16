@@ -57,5 +57,9 @@ public void PushButtonKey(){
 
 *1 プログラムをゲームオブジェクト化する方法は を参照
 
+
+## scriptを複数シーンで使う方法
+
+
 ## 3D
 
