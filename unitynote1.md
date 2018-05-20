@@ -59,6 +59,10 @@ public void PushButtonKey(){
 
 
 ## scriptを複数シーンで使う方法
+共通して使っていい
+
+## シーンを複製する方法
++ save asで名前を帰る
 
 
 ## 3D
