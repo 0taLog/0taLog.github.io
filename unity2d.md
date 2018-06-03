@@ -48,6 +48,11 @@ public GameObject buttonA;
 ~~~
 UI>Button で作成後 -> 名前変更:ButtonA
 
+
+### ヒエラルキービューメモ
+#### 空のオブジェクト(scriptアタッチ用)
+名前変更しておかないと、click functionを設定する際に見つけにくい
+
 ### インスペクタ項目メモ
 #### UI>Image
 ##### Image(Script)
