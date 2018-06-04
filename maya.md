@@ -122,3 +122,6 @@ lightning>TwoSidedLightning に切り替え
 #### nurbsモデリング　surface後表面が真っ黒
  1. オブジェクトを選択
  2. surface>Reverse Direction で反転
+ 
+#### mesh,polygonなどがメニューから消えた
+メニュバー2段目左端が"Modeling"以外になっていないか
