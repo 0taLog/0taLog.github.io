@@ -14,6 +14,12 @@ int main(void) {
 
 
 ## 補足
+### visual studio　使い方メモ
+#### 文字がカーソル位置から上書きされて困る
+insertキーを押すと治る
+#### scanf が使えない
++ アプリの作成方法が悪い（チェック全部外す）
++ scanf_sで代用
 
 ### unity付属の visual studio の使い方メモ
 #### 導入時注意
