@@ -42,3 +42,23 @@ private void OnTriggerEnter(Collider other)
         Destroy(this.gameObject); //this(このスクリプト).gameObject(があたっちされているgameObject)
     }
 ~~~
+
+
+### Playerコントローラー関連(Playerにつけるスクリプト)
+#### 
+#### プレイヤーが**に接触した時に何かしたい
++ OnControllerColliderHitが便利
+~~~
+private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        //当たった相手のタグがBossだったら
+        if (hit.gameObject.tag == "Boss")
+        {
+            //たとえば即ゲームオーバーになる
+            SceneManager.LoadScene("GameOver");
+
+        }
+    }
+
+~~~
+
